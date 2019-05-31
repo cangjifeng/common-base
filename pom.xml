@@ -12,6 +12,7 @@
     <artifactId>common-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>common-base</name>
+    <packaging>jar</packaging>
     <description>common-base project for Spring Boot</description>
 
     <properties>
