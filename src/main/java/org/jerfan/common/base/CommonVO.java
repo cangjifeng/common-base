@@ -1,7 +1,8 @@
 package org.jerfan.common.base;
 
 /**
- * Description：here you can write some desc info
+ * Description：CommonVo is top level ,
+ * all the child class that may be request or response need to extends CommonVo
  * Author: 仓纪峰
  * Date:2019/5/31
  * Time:11:27

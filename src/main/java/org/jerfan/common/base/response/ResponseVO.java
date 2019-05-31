@@ -5,7 +5,7 @@ import org.jerfan.common.base.CommonVO;
 import java.util.List;
 
 /**
- * Description：here you can write some desc info
+ * Description：ResponseVO extends CommonVO  and sport T type
  * Author: 仓纪峰
  * Date:2019/5/31
  * Time:11:35
@@ -13,16 +13,22 @@ import java.util.List;
 public class ResponseVO<T> extends CommonVO {
 
     /**
-     * code '00000' means success
+     * code '00000' means success ,others ple check the ResultEnum for more info
      */
     private String code;
 
     private String message;
 
+    /**
+     * all the error or exception message are store in this list
+     */
     private List<String> errorList;
 
     private T data;
 
+    /**
+     * store the source exception information
+     */
     private Throwable throwable;
 
 

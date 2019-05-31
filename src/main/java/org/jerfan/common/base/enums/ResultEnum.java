@@ -10,6 +10,11 @@ public enum ResultEnum {
 
      ENUM_SUCCESS("00000","success"),
      PARAM_IS_NULL("00001","request param is null"),
+     HAD_RECEIVED_REQUEST("00002","had received request info"),
+     HAD_RECEIVED_REQUEST_BUT_HANDLE_FAIL("00003","had received request info , but fail to handle it"),
+
+
+
 
      ENUM_FAIL("-1","fail");
 

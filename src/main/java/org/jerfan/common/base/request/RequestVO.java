@@ -3,7 +3,7 @@ package org.jerfan.common.base.request;
 import org.jerfan.common.base.CommonVO;
 
 /**
- * Description：here you can write some desc info
+ * Description：RequestVo  extends CommonVo and sport T type
  * Author: 仓纪峰
  * Date:2019/5/31
  * Time:11:26
